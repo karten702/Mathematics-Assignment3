@@ -59,7 +59,13 @@ public class App {
                         JOptionPane.showMessageDialog(null, "Please enter a message to encrypt first");
                     else {
                         String encryptedMessage = encrypt.encryptedMessage(textField2.getText());
-                        JOptionPane.showMessageDialog(null, "Message after encryption is: " + encryptedMessage);
+                        JTextArea textArea = new JTextArea(10,50);
+                        textArea.setText("Message after encryption is: \n" + encryptedMessage);
+                        textArea.setWrapStyleWord(true);
+                        textArea.setLineWrap(true);
+                        textArea.setCaretPosition(0);
+                        textArea.setEditable(false);
+                        JOptionPane.showMessageDialog(null, new JScrollPane(textArea), "Result", JOptionPane.INFORMATION_MESSAGE);
                     }
                 }
                 else
