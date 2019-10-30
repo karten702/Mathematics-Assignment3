@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="math.App">
+  <grid id="27dc6" binding="FirstPanel" layout-manager="GridLayoutManager" row-count="14" column-count="14" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1080" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b1346" class="javax.swing.JButton" binding="Step1">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step 1"/>
+        </properties>
+      </component>
+      <component id="f528c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input the value of n:"/>
+        </properties>
+      </component>
+      <component id="e3640" class="javax.swing.JButton" binding="step2Button" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step 2"/>
+        </properties>
+      </component>
+      <component id="16887" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input the value of m:"/>
+        </properties>
+      </component>
+      <component id="557e4" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a6d6a" class="javax.swing.JButton" binding="step3Button" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step  3"/>
+        </properties>
+      </component>
+      <component id="57f8d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56a52" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ENCRYPTION"/>
+        </properties>
+      </component>
+      <component id="bd946" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DECRYPTION"/>
+        </properties>
+      </component>
+      <component id="106e6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input the value of n:"/>
+        </properties>
+      </component>
+      <component id="4371e" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3e591" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input the value of e:"/>
+        </properties>
+      </component>
+      <component id="888d7" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="6" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e1ab4" class="javax.swing.JButton" binding="step1Button" default-binding="true">
+        <constraints>
+          <grid row="8" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step 1"/>
+        </properties>
+      </component>
+      <component id="d18b1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Input the value of c:"/>
+        </properties>
+      </component>
+      <component id="849f5" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+        <constraints>
+          <grid row="9" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="12145" class="javax.swing.JButton" binding="step2Button1" default-binding="true">
+        <constraints>
+          <grid row="12" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Step 2"/>
+        </properties>
+      </component>
+      <component id="732ed" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="5" column="10" row-span="8" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <separatorSize width="30" height="30"/>
+        </properties>
+      </component>
+      <component id="5ae6c" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="3" column="0" row-span="10" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d2ce9" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="3" column="13" row-span="10" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e7759" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Discrete Mathematics Practical Assignment 3: Encryption and Decryption"/>
+        </properties>
+      </component>
+      <component id="9a774" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <separatorSize width="5" height="5"/>
+        </properties>
+      </component>
+      <component id="69db4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Martijn Noorlander and Martijn Mensinga"/>
+        </properties>
+      </component>
+      <component id="7d17d" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="dafc6" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <separatorSize width="5" height="5"/>
+        </properties>
+      </component>
+      <component id="abb2d" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <separatorSize width="5" height="5"/>
+        </properties>
+      </component>
+      <component id="71a28" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="11" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <separatorSize width="5" height="5"/>
+        </properties>
+      </component>
+      <component id="5b214" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="52d5f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Please enter your encrypted message, seperating each number with a ','"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
