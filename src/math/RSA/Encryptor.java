@@ -35,11 +35,9 @@ public class Encryptor {
 
         while(!BigIntegerRelativelyPrime(e, PQPrime)){
             e++;
-            if(e == p || e == q){
+            if(e == p || e == q)
                 e++;
-            }
         }
-
         return e;
     }
 
@@ -55,7 +53,6 @@ public class Encryptor {
             encryptedValues[pos] = Encrypt(c);
             pos++;
         }
-        System.out.print("Message after encryption is: ");
         StringBuilder message = new StringBuilder();
         for(long i : encryptedValues){
             message.append(i);

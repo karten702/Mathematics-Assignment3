@@ -10,9 +10,8 @@ public class Constants {
                 number = number/i;
             }
         }
-        if(number >2L) {
+        if(number >2L)
             requiredPQ[1] = number;
-        }
         return requiredPQ;
     }
 
