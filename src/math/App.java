@@ -8,6 +8,7 @@ import math.RSA.Encryptor;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.math.BigInteger;
 
 public class App {
     private JButton Step1;
@@ -82,10 +83,15 @@ public class App {
             public void actionPerformed(ActionEvent actionEvent) {
                 if (Constants.tryParseLong(textField3.getText()) && Constants.tryParseLong(textField4.getText())) {
                     long N = Long.parseLong(textField3.getText());
-                    if (N >= 300) {
-                        decrypt = new Decryptor(N, Long.parseLong(textField4.getText()));
-                        long d = decrypt.calculateD();
-                        JOptionPane.showMessageDialog(null, "d is " + d);
+                    long e = Long.parseLong(textField4.getText());
+                    if (N >= 300 ) {
+                        if (BigInteger.valueOf(e).isProbablePrime(3)) {
+                            decrypt = new Decryptor(N, e);
+                            long d = decrypt.calculateD();
+                            JOptionPane.showMessageDialog(null, "d is " + d);
+                        }
+                        else
+                            JOptionPane.showMessageDialog(null, "e is not a prime number");
                     }
                     else
                         JOptionPane.showMessageDialog(null, "N needs to be higher than 300");
