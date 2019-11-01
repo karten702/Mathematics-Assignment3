@@ -30,11 +30,16 @@ public class App {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (Constants.tryParseLong(textField1.getText())) {
-                    encrypt = new Encryptor(Long.parseLong(textField1.getText()));
-                    long[] results = encrypt.CalculatePQ();
-                    JOptionPane.showMessageDialog(null, "p is " + results[0] + " \n" +
-                            "q is "+ results[1] + " \n " +
-                            "Amount of time busy to find p and q: " + results[2] + " milliseconds");
+                    long number = Long.parseLong(textField1.getText());
+                    if (number >= 300) {
+                        encrypt = new Encryptor(number);
+                        long[] results = encrypt.CalculatePQ();
+                        JOptionPane.showMessageDialog(null, "p is " + results[0] + " \n" +
+                                "q is " + results[1] + " \n " +
+                                "Amount of time busy to find p and q: " + results[2] + " milliseconds");
+                    }
+                    else
+                        JOptionPane.showMessageDialog(null, "N needs to be higher than 300");
                 }
                 else
                     JOptionPane.showMessageDialog(null, "The number you tried to parse is not a valid number");
@@ -76,9 +81,14 @@ public class App {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (Constants.tryParseLong(textField3.getText()) && Constants.tryParseLong(textField4.getText())) {
-                    decrypt = new Decryptor(Long.parseLong(textField3.getText()), Long.parseLong(textField4.getText()));
-                    long d = decrypt.calculateD();
-                    JOptionPane.showMessageDialog(null, "d is " + d);
+                    long N = Long.parseLong(textField3.getText());
+                    if (N >= 300) {
+                        decrypt = new Decryptor(N, Long.parseLong(textField4.getText()));
+                        long d = decrypt.calculateD();
+                        JOptionPane.showMessageDialog(null, "d is " + d);
+                    }
+                    else
+                        JOptionPane.showMessageDialog(null, "N needs to be higher than 300");
                 }
                 else
                     JOptionPane.showMessageDialog(null, "Please enter valid numbers in the fields for N and E");
